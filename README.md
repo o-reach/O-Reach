@@ -10,8 +10,8 @@ O'Reach can either be run standalone or use another algorithm as fallback in
 case that it cannot answer a reachability query in constant time.
 
 This repository contains the source code accompanying our paper
-[O'Reach: Even Faster Reachability in Large Graphs](https://arxiv.org/abs/2008.10932).
-Further information and instances are available on our [paper website](https://oreach.taa.univie.ac.at/).
+[O'Reach: Even Faster Reachability in Large Graphs](https://doi.org/10.4230/LIPIcs.SEA.2021.13).
+Further information as well as instances are available on our [paper website](https://oreach.taa.univie.ac.at/).
 
 Installation Notes
 =====
@@ -44,27 +44,29 @@ We use code from the following projects (shipped in extern/):
 
 License
 =====
-The program is licensed under MIT licence.
-If you publish results using our algorithms, please acknowledge our work by citing the following paper:
+Our code is licensed under MIT license.
+If you publish results using our algorithms, please acknowledge our work by
+citing the [corresponding paper](https://doi.org/10.4230/LIPIcs.SEA.2021.13):
 
 ```
-@article{hst-oreachfull-2021,
-  author        = {Hanauer, Kathrin and Schulz, Christian and Trummer, Jonathan},
-  title         = {O'Reach: Even Faster Reachability in Large Graphs},
-  journal       = {CoRR},
-  volume        = {abs/2008.10932},
-  year          = {2021},
-  url           = {https://arxiv.org/abs/2008.10932},
-  archivePrefix = {arXiv},
-  eprint        = {2008.10932},
-  primaryClass  = {cs.DS},
+@inproceedings{hst-oreach-2021,
+  author    = {Hanauer, Kathrin and Schulz, Christian and Trummer, Jonathan},
+  editor    = {Coudert, David and Natale, Emanuele},
+  title     = {O'Reach: Even Faster Reachability in Large Graphs},
+  booktitle = {19th International Symposium on Experimental Algorithms, {SEA} 2021,
+               June 7-9, 2021, Valrose, France},
+  series    = {LIPIcs},
+  volume    = {190},
+  pages     = {13:1--13:24},
+  publisher = {Schloss Dagstuhl - Leibniz-Zentrum f{\"{u}}r Informatik},
+  year      = {2021},
+  url       = {https://doi.org/10.4230/LIPIcs.SEA.2021.13},
+  doi       = {10.4230/LIPIcs.SEA.2021.13},
 }
 ```
 
 Project Contributors (sorted by last name)
 =====
-Kathrin Hanauer
-
-Christian Schulz
-
-Jonathan Trummer
+- Kathrin Hanauer
+- Christian Schulz
+- Jonathan Trummer
