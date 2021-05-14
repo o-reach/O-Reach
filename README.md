@@ -1,3 +1,6 @@
+[![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/o-reach/O-Reach/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/o-reach/O-Reach)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:f3b335103fbc2a0d161f573a2ffc64f4599a2a66/)](https://archive.softwareheritage.org/swh:1:dir:f3b335103fbc2a0d161f573a2ffc64f4599a2a66)
+
 O'Reach
 =====
 O'Reach is a fast, deterministic algorithm for answering reachability queries in a directed graph, i.e.,
