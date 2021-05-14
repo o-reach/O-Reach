@@ -1,0 +1,55 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/MIT",
+    "codeRepository": "git+https://github.com/o-reach/O-Reach",
+    "datePublished": "2021-05-14",
+    "dateModified": "2021-05-14",
+    "issueTracker": "https://github.com/o-reach/O-Reach/issues",
+    "name": "O'Reach",
+    "version": "1.0.0",
+    "description": "O'Reach is a fast, deterministic algorithm for answering reachability queries in a directed graph, i.e., it spends some time to preprocess a given directed (acyclic) graph and then quickly answers for arbitrary pairs of vertices s and t whether the graph has a directed path from s to t.",
+    "referencePublication": "https://arxiv.org/abs/2008.10932",
+    "programmingLanguage": [
+        "C++"
+    ],
+    "softwareRequirements": [
+        "CMake",
+        "Boost"
+    ],
+    "contributor": [
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-5945-837X",
+            "givenName": "Kathrin",
+            "familyName": "Hanauer",
+            "email": "kathrin.hanauer@univie.ac.at",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Vienna, Faculty of Computer Science, Vienna, Austria"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-2823-3506",
+            "givenName": "Christian",
+            "familyName": "Schulz",
+            "email": "christian.schulz@informatik.uni-heidelberg.de",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Heidelberg University, Heidelberg, Germany"
+            }
+        },
+        {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-1086-4756",
+            "givenName": "Jonathan",
+            "familyName": "Trummer",
+            "email": "jonathan.trummer@univie.ac.at",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "University of Vienna, Faculty of Computer Science, Vienna, Austria"
+            }
+        }
+    ]
+}
