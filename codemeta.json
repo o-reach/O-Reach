@@ -9,7 +9,7 @@
     "name": "O'Reach",
     "version": "1.0.0",
     "description": "O'Reach is a fast, deterministic algorithm for answering reachability queries in a directed graph, i.e., it spends some time to preprocess a given directed (acyclic) graph and then quickly answers for arbitrary pairs of vertices s and t whether the graph has a directed path from s to t.",
-    "referencePublication": "https://arxiv.org/abs/2008.10932",
+    "referencePublication": "https://doi.org/10.4230/LIPIcs.SEA.2021.13",
     "programmingLanguage": [
         "C++"
     ],
