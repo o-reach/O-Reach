@@ -1,5 +1,5 @@
 [![SWH](https://archive.softwareheritage.org/badge/origin/https://github.com/o-reach/O-Reach/)](https://archive.softwareheritage.org/browse/origin/?origin_url=https://github.com/o-reach/O-Reach)
-[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:f3b335103fbc2a0d161f573a2ffc64f4599a2a66/)](https://archive.softwareheritage.org/swh:1:dir:f3b335103fbc2a0d161f573a2ffc64f4599a2a66)
+[![SWH](https://archive.softwareheritage.org/badge/swh:1:dir:55d23a5b940f1ead285729c8dbd82c71e28d504a/)](https://archive.softwareheritage.org/swh:1:dir:55d23a5b940f1ead285729c8dbd82c71e28d504a)
 
 O'Reach
 =====
