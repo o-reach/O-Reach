@@ -1,0 +1,16 @@
+Before you can start you need to install the following software packages:
+
+- [CMake](https://cmake.org/) (at least version 3.10)
+- [Boost](https://www.boost.org/) (at least version 1.61)
+
+Both are also available as packages on many Linux distributions, e.g.:
+- Debian/Ubuntu: apt install cmake libboost-dev
+- Fedora: dnf install cmake boost
+
+Afterwards, in the main project directory, type
+
+./compile_withcmake.sh
+
+Once you did that you can try to run the following command:
+
+./build/reachability ./examples/arXiv.metis
